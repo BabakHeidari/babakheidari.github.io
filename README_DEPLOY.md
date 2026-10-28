@@ -1,11 +1,14 @@
 # Babak Heydari — GitHub Pages website (photo + social update)
 
-This updated package keeps your revised professional experience, including **Pricing & Promotion Manager at Shatel Mobile (Oct 2026–Present)**, and adds:
+This update removes the entire **03 / QUANTITATIVE RESEARCH** project card, including the market-risk modeling description, because it does not belong to Babak. The remaining project cards are renumbered, and the three-card layout is adapted for desktop.
 
-- Your supplied photo, displayed on the homepage (`assets/babak-heydari.jpg`).
+The package retains:
+
+- Shatel Mobile — **Pricing & Promotion Manager (Oct 2026–Present)** and all other professional experience.
+- Your supplied photo (`assets/babak-heydari.jpg`).
 - Your Telegram channel: https://t.me/ThinkingWithBabak
 - Your X profile: https://x.com/BabakHeydariSci
-- Updated contact links and social profile metadata for search engines.
+- Existing contact links and social profile metadata.
 
 ## Deploy
 

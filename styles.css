@@ -121,7 +121,7 @@ h1 { max-width: 700px; font-size: clamp(52px,5.65vw,85px); font-weight: 750; let
 .additional-heading { font-size: 10px; font-weight: 800; letter-spacing: .12em; color: #4c7460; white-space: nowrap; }
 .additional-experience p { font-size: 11.5px; margin: 0; color: #5f7065; line-height: 1.85; }
 .bullet-separator { padding: 0 5px; color: #9bab9c; }
-.work-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+.work-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; }
 .work-card { min-height: 380px; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden; background: #edf0e9; border: 1px solid var(--line); border-radius: 16px; padding: 28px; }
 .work-card-dark { color: #eaf3e8; background: #21392f; border-color: #21392f; }
 .work-card-top { color: #657e6b; }
@@ -142,9 +142,6 @@ h1 { max-width: 700px; font-size: clamp(52px,5.65vw,85px); font-weight: 750; let
 .bar-visual { gap: 10px; align-items: end; }
 .bar-visual span { width: 18px; height: 40%; border-radius: 4px 4px 0 0; background: #7fa08a; }
 .bar-visual span:nth-child(2) { height: 65%; background: #bbd0b9; }.bar-visual span:nth-child(3) { height: 49%; }.bar-visual span:nth-child(4) { height: 84%; background: #4c7865; }.bar-visual span:nth-child(5) { height: 63%; }.bar-visual span:nth-child(6) { height: 93%; background: #376a57; }.bar-visual span:nth-child(7) { height: 77%; }
-.risk-visual { gap: 10px; }
-.risk-visual span { display: grid; place-items: center; width: 65px; height: 65px; border: 1px solid #b4c7b5; border-radius: 50%; font-family: Georgia,serif; color: #3d7c60; font-size: 24px; }
-.risk-visual span:nth-child(2) { background: #dce8da; border-color: #8db49b; }
 .ml-visual { gap: 14px; }
 .ml-node { position: relative; width: 16px; height: 16px; background: #51896b; border-radius: 50%; box-shadow: 0 0 0 8px rgba(90,143,105,.12); }
 .ml-node:nth-child(even) { transform: translateY(-30px); background: #a3bea9; }.ml-node:nth-child(3) { transform: translateY(30px); }
@@ -189,6 +186,7 @@ h1 { max-width: 700px; font-size: clamp(52px,5.65vw,85px); font-weight: 750; let
   .experience-card { grid-template-columns: 220px 1fr; }
 }
 @media (max-width: 880px) {
+  .work-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .container { width: min(calc(100% - 44px),var(--content-width)); }
   .header-inner { min-height: 76px; }
   .primary-nav { gap: 15px; }
